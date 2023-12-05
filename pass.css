@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #0d0c2d;
+    }
+    
+    .container {
+    padding: 1rem 1.5rem;
+    border: 1px solid rgb(210, 216, 221);
+    width: 500px;
+    background-color: #0d0c2d;
+    }
+    
+    h2 {
+    text-align: center;
+    padding: 15px 0;
+    color: aliceblue;
+    }
+    
+    #length{
+        border: 1px solid white;
+        background-color: #0d0c2d;
+        color: #fff;
+    }
+    .option {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    color: aliceblue;
+    }
+    .result__container {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(47, 43, 43);
+    padding: 0 5px;
+    background-color: #fff;
+    border-radius: 6px;
+    }
+    
+    .result-container #result {
+    word-wrap: break-word;
+    max-width: calc(100% - 40px);
+    }
+    
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        justify-items: center;
+        align-items: center;
+        padding: 30px;
+    }
+    #copy{
+    height: 40px;
+    /* width: 48%; */
+    border-radius: 10px;
+    border: none;
+    background-color: #7942a0;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    }
+    #generate{
+    height: 40px;
+    /* width: 48%; */
+    border-radius: 10px;
+    border: none;
+    background-color: #7942a0;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    }
+    #generate:hover,#copy:hover {
+    background-color: #3f679b;
+    color: #ffffff;
+    }
+    
